@@ -1,0 +1,38 @@
+{
+  "name": "semver-bounded",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Determine whether a semver range is bounded",
+  "license": "MIT",
+  "repository": "bendrucker/semver-bounded",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "semver",
+    "range",
+    "bounded",
+    "maximum"
+  ],
+  "dependencies": {
+    "array-last": "~1.0.2",
+    "semver": "~4.3.6",
+    "sort-semver-comparators": "~1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "readme.md"
+  ]
+}
