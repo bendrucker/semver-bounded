@@ -1,7 +1,7 @@
 {
   "name": "semver-bounded",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Determine whether a semver range is bounded",
   "license": "MIT",
   "repository": "bendrucker/semver-bounded",
