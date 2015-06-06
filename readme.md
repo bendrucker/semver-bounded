@@ -14,13 +14,13 @@ $ npm install --save semver-bounded
 ```js
 var isBounded = require('semver-bounded')
 
-isBounded('>2 <4') // => true
-isBounded('>4') // => false
+isBounded.range('>2 <4') // => true
+isBounded.range('>4') // => false
 ```
 
 ## API
 
-#### `isBounded(range)` -> `boolean`
+#### `isBounded.range(range)` -> `boolean`
 
 ##### range
 
@@ -28,6 +28,15 @@ isBounded('>4') // => false
 Type: `string`
 
 The semver range to test.
+
+#### `isBounded.comparators(comparators)` -> `boolean`
+
+##### comparators
+
+*Required*  
+Type: `array[comparators]`
+
+An array of `semver.Comparator` instances to test.
 
 ## License
 
