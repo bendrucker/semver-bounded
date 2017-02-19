@@ -10,6 +10,9 @@ test(function (t) {
   t.notOk(isBounded.range('>2'))
   t.notOk(isBounded.range('<2 || >2'))
 
+  t.notOk(isBounded.range('>=2 <2'))
+  t.notOk(isBounded.range('>2 <2'))
+
   t.ok(isBounded.comparators([new semver.Comparator('<2.0.0')]))
   t.notOk(isBounded.comparators([new semver.Comparator('>2.0.0')]))
 
