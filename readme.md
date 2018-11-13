@@ -1,4 +1,4 @@
-# semver-bounded [![Build Status](https://travis-ci.org/bendrucker/semver-bounded.svg?branch=master)](https://travis-ci.org/bendrucker/semver-bounded)
+# semver-bounded [![Build Status](https://travis-ci.org/bendrucker/semver-bounded.svg?branch=master)](https://travis-ci.org/bendrucker/semver-bounded) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/semver-bounded.svg)](https://greenkeeper.io/)
 
 > Determine whether a semver range is bounded
 
